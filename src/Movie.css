@@ -1,0 +1,51 @@
+.movies .movie {
+  width: 42%;
+  height: 30vh;
+  margin: 5vh;
+  display: flex;
+  flex-direction: flex-start;
+  background-color: white;
+  box-shadow: 1px 1px 7px 7px rgb(223, 221, 221);
+  padding: 1vh 0.5vw;
+}
+
+.movie img {
+  position: relative;
+  top: -20%;
+  left: -1.8%;
+  max-width: 30%;
+  min-height: 100%;
+  margin: 2vh;
+  box-shadow: 1px 1px 7px 15px rgb(248, 246, 246);
+}
+
+.movie h3 {
+  font-size: 1.5rem;
+  margin: 1vh 0;
+}
+
+.movie h5 {
+  font-size: 1rem;
+  color: gray;
+  margin: 0;
+}
+
+.movie ul {
+  display: flex;
+
+  list-style: none;
+  padding: 0;
+  margin: 1vh 0;
+  color: gray;
+}
+
+.genres_genre {
+  margin-right: 1vh;
+}
+
+.movie p {
+  color: gray;
+  height: 10vh;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
